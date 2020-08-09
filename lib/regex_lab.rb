@@ -25,7 +25,7 @@ end
 
 def valid_phone_number?(phone)
 phone.each do |n|
-  phone.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
+  n.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
 end
 
 
