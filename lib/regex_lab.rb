@@ -25,6 +25,10 @@ end
 
 def valid_phone_number?(phone)
 
-  phone.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
+  if phone.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
+    true
+  else
+
+  false 
 
 end
