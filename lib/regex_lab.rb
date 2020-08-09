@@ -28,4 +28,3 @@ def valid_phone_number?(phone)
   phone.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
 
 end
-
