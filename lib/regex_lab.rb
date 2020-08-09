@@ -24,11 +24,8 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-phone.each do |n|
-  n.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
-end
 
-
-
+  phone.match(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
 
 end
+
