@@ -26,10 +26,10 @@ end
 def valid_phone_number?(phone)
 
   if phone.scan(/\(?\d\d\d[)\s]?\d\d\d[-\s]?\d\d\d\d\s/)
-    true
+    false
   else
 
-  false
+  true
 end
 
 end
